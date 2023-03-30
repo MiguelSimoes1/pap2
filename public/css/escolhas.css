@@ -1,0 +1,17 @@
+body {
+    background-image: url('/images/image.jpg');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 70vh;
+}
+
+#main {
+    min-height: 100vh;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
